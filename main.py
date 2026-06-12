@@ -15,7 +15,7 @@ while True:
         boards = board_dao.select_all()
 
         print()
-        print("번호 제목 작성자 작성일")
+        print("번호 제목 내용 작성자 작성일")
         print("-" * 40)
 
         for board in boards:
@@ -24,7 +24,8 @@ while True:
                 board[0],
                 board[1],
                 board[2],
-                board[3]
+                board[3],
+                board[4]
             )
 
     elif menu == "2":
