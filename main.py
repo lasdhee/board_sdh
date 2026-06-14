@@ -131,11 +131,10 @@ while True:
 
             for comment in comments:
 
-                print(
-                    f"댓글번호:{comment[0]}",
-                    f"작성자:{comment[3]}",
-                    f"내용:{comment[2]}"
-                )
+                print()
+                print("댓글번호 :", comment[0])
+                print("작성자 :", comment[3])
+                print("내용 :", comment[2])
 
             comment_id = input("\n삭제할 댓글 번호 : ")
 
